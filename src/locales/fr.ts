@@ -1,7 +1,7 @@
 import ILocale from '../locale';
 
 const locale: ILocale = {
-    address: 'Addresse',
+    address: 'Lien pour rejoindre',
     maintenanceMessages: {
         disabled: `Mode maintenance désactivé, reprise de l'interogation du serveur !`,
         enabled: `Mode maintenance activé, arret de l'interrogation du serveur !`,
@@ -10,10 +10,10 @@ const locale: ILocale = {
     mission: 'Mission',
     noMap: 'pas de map sélectionnée',
     noPermissions: `Vous n'avez pas la permission pour faire ceci !`,
-    noPlayers: 'Pas de joueurs',
+    noPlayers: 'Pas de joueur',
     pingMessage: 'le seuil de joueurs a été atteint sur le serveur. Augmentez-le maintenant !',
-    playerCount: 'Nombre de joueur',
-    playerList: 'Liste de joueur',
+    playerCount: 'Nombre de joueur connecté',
+    playerList: 'Liste des joueurs connecté',
     presence: {
         botFailure: 'Echec du bot',
         error: 'Serveur en cours de réparation',
@@ -34,7 +34,7 @@ const locale: ILocale = {
         online: 'En ligne',
         status: 'Statut',
     },
-    tooManyPlayers: 'Trop de joueurs à afficher',
+    tooManyPlayers: 'Trop de joueurs',
 };
 
 export default locale;
