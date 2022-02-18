@@ -3,8 +3,8 @@ import ILocale from '../locale';
 const locale: ILocale = {
     address: 'Addresse',
     maintenanceMessages: {
-        disabled: `J'ai désactivé le mode maintenance et j'interroge à nouveau le serveur !`,
-        enabled: `J'ai activé le mode maintenance et je n'interrogerai plus le serveur !`,
+        disabled: `Mode maintenance désactivé, reprise de l'interogation du serveur !`,
+        enabled: `Mode maintenance activé, arret de l'interrogation du serveur !`,
     },
     map: 'Map',
     mission: 'Mission',
